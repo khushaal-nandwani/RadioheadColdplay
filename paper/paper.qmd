@@ -1,6 +1,6 @@
 ---
 title: "Coldplay vs Radiohead Danceability over Time"
-subtitle: "Coldplay reamins more danceable over the years"
+subtitle: "Exploring Coldplay's Consistent Danceability Advantage"
 author: 
   - Chenika Bukes
   - Khushaal Nandwani
@@ -8,7 +8,7 @@ author:
 thanks: "Code and data are available at: https://github.com/chenikabukes/RadioheadColdplay"
 date: today
 date-format: long
-abstract: "This study explores the danceability of Coldplay and Radiohead over time by using data extracted from Spotify’s API. The results show that Coldplay has consistently maintained a higher level of danceability compared to Radiohead. These findings are relevant in understanding the musical evolution of both bands and their appeal to different types of listeners."
+abstract: "This study explores the danceability of Coldplay and Radiohead over time by using data extracted from Spotify’s API. The results show that Coldplay's average danceability scores have remained consistently higher, typically ranging from 0.4 to 0.6, compared to Radiohead's fluctuating scores, which vary between 0.2 and 0.6, reflecting Coldplay's stable pop-rock style and Radiohead's experimental musical approach. These findings are relevant in understanding the musical evolution of both bands and their appeal to different types of listeners."
 format: pdf
 number-sections: true
 bibliography: references.bib
