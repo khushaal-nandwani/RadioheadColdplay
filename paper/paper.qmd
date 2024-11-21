@@ -76,6 +76,8 @@ Both bands show some increase in danceability in their later albums, though Cold
 \newpage
 
 # Appendix
+
+## Additional Exploratory Analysis
 Out of interest we decided to explore the correlation between danceability and tempo. The below results do not show a significant relationship and thus were not included in the main findings. 
 ```{R}
 #| echo: false
