@@ -35,7 +35,7 @@ Understanding how danceability evolves over time can provide insight into the ba
 
 # Data {#sec-data}
 
-The data used in this study was retrieved using the Spotify Web API and processed using the R package spotifyr [@Spotify]. The package allows bulk retrieval of an artist’s entire discography along with associated audio features, including danceability, tempo, energy, and others. We accessed both Coldplay's and Radiohead’s discographies and calculated the average danceability of their songs by year of release. The data consists of metadata about each track, including the release year, danceability score, and album information. 
+The data used in this study was retrieved using the @spotifyAPI and processed using the R package spotifyr [@Spotify]. The package allows bulk retrieval of an artist’s entire discography along with associated audio features, including danceability, tempo, energy, and others. We accessed both Coldplay's and Radiohead’s discographies and calculated the average danceability of their songs by year of release. The data consists of metadata about each track, including the release year, danceability score, and album information. 
 
 
 # Results {#sec-results}
@@ -121,5 +121,4 @@ ggplot(coldplay, aes(x = tempo, y = danceability)) +
   theme_minimal()
 ```
 \newpage 
-\newpage
 # References

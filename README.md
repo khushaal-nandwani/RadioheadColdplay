@@ -5,7 +5,7 @@
 This repo provides the code required to produce the final paper comparing the danceability of coldplay compared with radiohead over time. 
 
 ## LLM Usage
-No LLM was used to product any part of this paper.
+LLM was used in the certain parts and its usage has been documented [here](/other/llm_usage..txt)
 
 ## File Structure
 

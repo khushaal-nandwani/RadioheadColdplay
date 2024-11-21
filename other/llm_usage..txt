@@ -1,1 +1,29 @@
-No LLM was used in the task.
+You said: how to cite 
+
+https://developer.spotify.com/documentation/web-api
+
+
+I used in a r project in .bib
+
+3/3
+
+ChatGPT said:
+
+ChatGPT
+Here’s an example of how you can cite the Spotify Web API documentation in your .bib file:
+
+@manual{spotifyAPI,
+  title        = {Spotify Web API Documentation},
+  author       = {{Spotify Developers}},
+  year         = {2024},
+  url          = {https://developer.spotify.com/documentation/web-api},
+  note         = {Accessed: 2024-11-21}
+}
+Explanation:
+@manual: Used for technical documentation or manuals.
+title: The title of the documentation.
+author: The name of the author(s) or organization responsible for the documentation.
+year: The year you accessed or used the documentation.
+url: The URL for the online documentation.
+note: Additional details, such as the access date.
+You can replace the year and access date as appropriate for your project.
