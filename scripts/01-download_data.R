@@ -1,6 +1,5 @@
 #### Preamble ####
 # Purpose: Downloads and saves the data from the Spotify API
-# Author: Group 20 
 # Date: 10 October 2024
 # Contact: chenika.bukes@mail.utoronto.ca
 # License: MIT

@@ -1,6 +1,6 @@
 ---
 title: "Coldplay vs Radiohead Danceability over Time"
-subtitle: "Exploring Coldplay's Consistent Danceability Advantage"
+subtitle: "Coldplay Remains more Danceable over the Years"
 author: 
   - Chenika Bukes
   - Khushaal Nandwani
@@ -29,7 +29,7 @@ coldplay <- readRDS("../data/01-raw_data/coldplay.rds")
 # Introduction
 The estimand in this paper is the average danceability of tracks by both Coldplay and Radiohead over time. Danceability describes how suitable a track is for dancing based on a combination of tempo, rhythm stability, beat strength, and overall regularity. This paper shows how this metric changes for each band and discusses the implications.
 
-This study reveals a striking contrast in the danceability trajectories of Coldplay and Radiohead. Coldplay's music exhibits stable and gradually increasing danceability scores over the years, consistent with their evolution toward a more mainstream pop sound. In contrast, Radiohead's danceability scores are characterized by notable fluctuations, reflecting their experimentation with diverse musical styles. These differences highlight the distinct artistic choices made by each band and their appeal to varying listener demographics.
+This study reveals a contrast in the danceability trajectories of Coldplay and Radiohead. Coldplay's music exhibits stable and gradually increasing danceability scores over the years, consistent with their evolution toward a more mainstream pop sound. In contrast, Radiohead's danceability scores are characterized by notable fluctuations, reflecting their experimentation with diverse musical styles. These differences highlight the distinct artistic choices made by each band and their appeal to varying listener demographics.
 
 Understanding how danceability evolves over time can provide insight into the bands' stylistic changes and the broader trends in the music industry. All analysis in this paper was completed using R [@citeR]. The remainder of this paper is structured as follows. Section @sec-data describes the data collection and preparation. Section @sec-results presents the findings using the tidyverse package [@tidyverse], and Section @sec-discussion discusses the implications of these results.
 
@@ -75,9 +75,13 @@ Both bands show some increase in danceability in their later albums, though Cold
 
 \newpage
 
-# Appendix
 
-## Additional Exploratory Analysis
+\appendix
+
+# Appendix {-}
+
+# Additional Exploratory Analysis
+
 Out of interest we decided to explore the correlation between danceability and tempo. The below results do not show a significant relationship and thus were not included in the main findings. 
 ```{R}
 #| echo: false
@@ -123,4 +127,5 @@ ggplot(coldplay, aes(x = tempo, y = danceability)) +
   theme_minimal()
 ```
 \newpage 
+
 # References
